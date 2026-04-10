@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TLE 8 Group 3</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+   <header>
+    <nav class="navbar">
+    <div class="headdiv">
+      <div class="logo">
+        <img src="https://i.ibb.co/ymJvdcZY/Untitled183-20260207162105.png" style="width:160px; height:155px">
+      </div>
+       <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#solve" class="active">Solution</a></li>
+        <li><a href="data.html">Data</a></li>
+        <li><a href="extra.html">Extras</a></li>
+       </ul>
+      </div>
+     </nav>
+  </header>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#button2").hide();
+      $("#show").hide();
+      $("#button").click(function(){
+       $("#show").slideDown();
+       $("#button").hide();
+       $("#button2").show();
+     });
+     $("#button2").click(function(){
+       $("#show").slideUp();
+       $("#button2").hide();
+       $("#button").show();
+     });
+   });
+  </script>
+  
+  <body>
+    <h1 class="header" id="solve">Solution</h1>
+    <section>
+      <h2 class="secthead">What's its function?</h2>
+      <p  style="font-size: 30px;">Our Prototype's function is to give <strong>extra protective security measures</strong> by generating new codes for logging in your account on another device,
+      it's like an extension to your current device's security. Its downside is that it can <strong>only be used if there's already a device with your account logged in.</strong></p>
+      <img src="https://i.ibb.co/84bSNM4y/Untitled272-20260410112252.png" style="width:360px; height:360px" class="illus">
+    </section>
+    
+    <section>
+      <h2 class="secthead">Step By Step Process:</h2>
+      <div id="show">
+       <p style="font-size: 30px;">1. Go to your account and <strong>generate</strong> a code.</p>
+       <p style="font-size: 30px;">2. <strong>Save</strong> those codes, either <strong>taking notes</strong> or <strong>taking a picture</strong>.</p>
+       <p style="font-size: 30px;">3. When you want to log in on another device, <strong>use</strong> one of the codes you generated.</p>
+       <p style="font-size: 30px;">4. After using the code, you can now log in to your account and the code you used will be <strong>marked</strong> as used.</p>
+      </div>
+      <h3 class="para" id="button" style="font-size: 35px; text-align: center; color:rgb(81, 81, 255);">[Expand]</h3>
+      <h3 class="para" id="button2" style="font-size: 35px; text-align: center; color:rgb(81, 81, 255);">[Collapse]</h3>
+    </section>
+  </body>
