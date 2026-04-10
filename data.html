@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TLE 8 Group 3</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+   <header>
+    <nav class="navbar">
+    <div class="headdiv">
+      <div class="logo">
+        <img src="https://i.ibb.co/ymJvdcZY/Untitled183-20260207162105.png" style="width:160px; height:155px">
+      </div>
+       <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="solution.html">Solution</a></li>
+        <li><a href="#data" class="active">Data</a></li>
+        <li><a href="extra.html">Extras</a></li>
+       </ul>
+      </div>
+     </nav>
+  </header>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#button2").hide();
+      $("#show").hide();
+      $("#button").click(function(){
+       $("#show").slideDown();
+       $("#button").hide();
+       $("#button2").show();
+     });
+     $("#button2").click(function(){
+       $("#show").slideUp();
+       $("#button2").hide();
+       $("#button").show();
+     });
+   });
+    
+  </script>
+
+  <style>
+    .image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+
+    <body>
+     <h1 class="header" id="data">Results Data</h1> 
+    <section>
+      <h2 class="secthead">How well is the navigation?</h2>
+      <div>
+        <div>
+          <img class="image" src="https://i.ibb.co/PvLGTfPf/IMG-20260410-155159.jpg" style="border-radius: 9px; box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);">
+        </div>
+        <div>
+          <p style="font-size: 30px; text-align: center;">60% of people found the navigation well.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="secthead">How helpful do you think this prototype could be for people?</h2>
+      <div>
+        <div>
+          <img class="image" src="https://i.ibb.co/BHXVf2Yj/IMG-20260410-155121.jpg" style="border-radius: 9px; box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);">
+        </div>
+        <div>
+          <p style="font-size: 30px; text-align: center;">40% of people found it very helpful for people, the other 40% found it somewhat helpful.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="secthead">Do you think our prototype solves the problem?</h2>
+      <div>
+        <div>
+          <img class="image" src="https://i.ibb.co/9PxhL2J/IMG-20260410-154848.jpg" style="border-radius: 9px; box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); text-align: center;">
+        </div>
+        <div>
+          <p style="font-size: 30px; text-align: center;">Everyone thinks our prototype solves the problem.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="secthead">Would you consider using this prototype if it became a real product?</h2>
+      <div>
+        <div>
+          <img class="image" src="https://i.ibb.co/Zpfcq023/IMG-20260410-154921.jpg" style="border-radius: 9px; box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); text-align: center;">
+        </div>
+        <div>
+          <p style="font-size: 30px; text-align: center;">60% of people would maybe consider using the prototype.</p>
+        </div>
+      </div>
+    </section>
+       <h1 class="header">Data Summary</h1> 
+    <section>
+        <div id="show">
+        <p style="font-size: 30px; text-align: center;">Overall, the data shows that our prototype is a <strong>good solution</strong> to the problem of cybersecurity, but it still has <strong>some flaws</strong> and in need of <strong>new features</strong> that we can work on to make the prototype better and more effective.
+            A <strong>good way</strong> we can improve the prototype might be to make it so that you can generate codes even if you don't have a device with your account logged in, and maybe even add a feature that allows you to generate codes for specific devices, this way, you can have better control over your account's security and make it so that only the devices you trust can log in to your account.
+        </p>
+        </div>
+        <h3 class="para" id="button" style="font-size: 35px; text-align: center; color:rgb(81, 81, 255);">[Expand]</h3>
+        <h3 class="para" id="button2" style="font-size: 35px; text-align: center; color:rgb(81, 81, 255);">[Collapse]</h3>
+    </section>
+
+</body>
+</html> 
