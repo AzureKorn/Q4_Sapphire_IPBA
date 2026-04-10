@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+body {
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), #a6bee0);
+}
+
+header {
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #285ea1;
+  border: 7.5px solid #17375E;
+  margin-bottom: 25px;
+  border-radius: 20px;
+}
+
+.navbar {
+  font-family: Share Tech;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.headdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#profilee {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  text-decoration: none;
+  margin-right: 35px;
+}
+
+.title {
+	color: white;
+	font-size: 40px;
+	font-family: Fredoka;
+	text-align: center;
+}
+
+.illus {
+  width: 660px;
+  height: 500px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 100%;
+  max-width: 660px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.wrapper {
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.users {
+  flex: 1;
+}
+
+.secthead {
+  font-family: Fredoka;
+  color: #0E2239;
+  font-size: 35px;
+  border-bottom: 3px solid #0E2239;
+}
+
+.header {
+  font-family: Fredoka;
+  color: #0E2239;
+  font-size: 45px;
+}
+
+.para {
+  font-family: Share Tech;
+}
+
+p {
+  font-family: Share Tech;
+}
+
+section {
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  background-color: white;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #a1bee2;
+  color: black;
+  border-radius: 10px;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: white;
+  color: #17375E;
+  border-radius: 10px;
+}
